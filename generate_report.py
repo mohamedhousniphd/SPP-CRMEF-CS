@@ -54,12 +54,12 @@ PROVIDERS = {
     },
     "openrouter": {
         "base_url": "https://openrouter.ai/api/v1",
-        "default_model": "google/gemini-2.5-flash",
+        "default_model": "google/gemini-3.1-flash-lite-preview",
         "env_key": "OPENROUTER_API_KEY",
     },
     "aistudio": {
         "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
-        "default_model": "gemini-2.5-flash",
+        "default_model": "gemini-3.1-flash-lite-preview",
         "env_key": "GOOGLE_API_KEY",
     },
 }
