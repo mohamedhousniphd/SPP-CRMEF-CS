@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPP Report Generator | CRMEF</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <main class="app-container">
+        <header class="app-header">
+            <div class="logo">📘 SPP Generator</div>
+            <h1>Supervised Personal Project</h1>
+            <p>CRMEF Casablanca-Settat | Computer Science Department</p>
+        </header>
+
+        <section class="glass-card" id="form-section">
+            <div class="form-stepper">
+                <div class="step active" data-step="1">1. Setup</div>
+                <div class="step" data-step="2">2. ID</div>
+                <div class="step" data-step="3">3. Project</div>
+                <div class="step" data-step="4">4. Results</div>
+            </div>
+
+            <form id="report-form">
+                <!-- Step 1: LLM Setup -->
+                <div class="form-step active" id="step-1">
+                    <h2>Configuration</h2>
+                    <div class="input-group">
+                        <label>Provider</label>
+                        <select id="provider" name="provider">
+                            <option value="openai">OpenAI</option>
+                            <option value="openrouter">OpenRouter (Rec. Gemini/Claude)</option>
+                            <option value="aistudio">Google AI Studio</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label>Model</label>
+                        <input type="text" id="model" name="model" value="gpt-4o" placeholder="e.g. gpt-4o, google/gemini-pro-1.5">
+                    </div>
+                    <div class="input-group">
+                        <label>API Key</label>
+                        <input type="password" id="api_key" name="api_key" placeholder="Paste your key here (stored for session only)">
+                    </div>
+                    <div class="input-group">
+                        <label>Report Language</label>
+                        <select id="language" name="language">
+                            <option value="arabic">Arabic (العربية)</option>
+                            <option value="french">French (Français)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Step 2: Identification -->
+                <div class="form-step" id="step-2">
+                    <h2>Identification</h2>
+                    <div class="input-grid">
+                        <div class="input-group">
+                            <label>Full Name</label>
+                            <input type="text" name="full_name" placeholder="John Doe">
+                        </div>
+                        <div class="input-group">
+                            <label>Specialization</label>
+                            <input type="text" name="specialization" placeholder="Cycle Qualifiant / Informatique">
+                        </div>
+                        <div class="input-group full-width">
+                            <label>Project Title</label>
+                            <input type="text" name="project_title" placeholder="e.g. Pseudocode Studio">
+                        </div>
+                        <div class="input-group">
+                            <label>Supervisor</label>
+                            <input type="text" name="supervisor" placeholder="Prof. Name">
+                        </div>
+                        <div class="input-group">
+                            <label>Target Group</label>
+                            <input type="text" name="target_group" placeholder="1st year secondary">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3: Description -->
+                <div class="form-step" id="step-3">
+                    <h2>Project Description</h2>
+                    <div class="input-group">
+                        <label>General Context</label>
+                        <textarea name="general_context" rows="3"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <label>Objectives</label>
+                        <textarea name="objectives" rows="3"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <label>Methodology Stages</label>
+                        <textarea name="methodology_stages" rows="3"></textarea>
+                    </div>
+                </div>
+
+                <!-- Step 4: Results & References -->
+                <div class="form-step" id="step-4">
+                    <h2>Results & Data</h2>
+                    <div class="input-group">
+                        <label>Raw Results</label>
+                        <textarea name="raw_results" rows="3" placeholder="Paste scores, observations, etc."></textarea>
+                    </div>
+                    <div class="input-group">
+                        <label>Tools & References</label>
+                        <textarea name="references" rows="3"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-controls">
+                    <button type="button" id="prev-btn" class="secondary-btn" hidden>Previous</button>
+                    <button type="button" id="next-btn" class="primary-btn">Next Step</button>
+                    <button type="submit" id="generate-btn" class="primary-btn pulse" hidden>Generate Full Report ✨</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="glass-card result-card" id="result-section" hidden>
+            <div class="result-header">
+                <h2>Generated Report</h2>
+                <div class="result-actions">
+                    <button id="download-btn" class="primary-btn">Download .docx 📥</button>
+                    <button id="restart-btn" class="secondary-btn">New Project</button>
+                </div>
+            </div>
+            <div id="report-preview" class="report-preview">
+                <!-- Preview content here -->
+            </div>
+        </section>
+
+        <div id="loader" class="loader-overlay" hidden>
+            <div class="loader-content">
+                <div class="spinner"></div>
+                <p>Generating your 30-page report...</p>
+                <span id="loader-timer">ETA: 1-2 minutes</span>
+            </div>
+        </div>
+    </main>
+    
+    <script src="/static/app.js"></script>
+</body>
+</html>
