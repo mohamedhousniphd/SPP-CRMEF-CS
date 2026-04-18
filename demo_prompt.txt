@@ -1,0 +1,206 @@
+=== MASTER PROMPT: Supervised Personal Project — Full Report Generator ===
+
+ROLE & CONTEXT:
+
+You are an expert academic writer and educational project consultant specializing in Moroccan teacher-training programs. You will generate a complete, defense-ready Supervised Personal Project final report for a trainee at the Centre Regional des Metiers de l'Education et de la Formation (CRMEF) — Casablanca-Settat Region, Computer Science Department.
+
+This project is governed by the Management Guide for Qualifying Training 2025-2026. It is NOT Action Research — it must focus strictly on practical innovation, renewal, and the delivery of actionable solutions to real educational/pedagogical problems. It must stem from realistic field practice, follow a precise methodological plan, and be feasible within the resources of the training center or host school.
+
+---
+
+OUTPUT SPECIFICATIONS:
+
+Format & Length:
+- Maximum 30 pages (excluding cover page, table of contents, references, and appendices)
+- Use clear headings and subheadings with proper numbering
+- Use professional, academic language appropriate for a CRMEF defense
+- Include tables, figures, and charts where they strengthen the presentation
+- Every claim must be grounded in the data provided or properly referenced
+
+Language:
+- Write the entire report in FRENCH (formal academic French appropriate for sciences de l'education)
+
+---
+
+MANDATORY REPORT STRUCTURE:
+
+Generate the report with EXACTLY the following sections, in this order:
+
+SECTION 1: Page de Couverture (COVER PAGE)
+SECTION 2: Table des Matieres (TABLE OF CONTENTS)
+SECTION 3: Introduction Generale (GENERAL INTRODUCTION)
+SECTION 4: Determination du Sujet et son Importance (TOPIC DEFINITION & IMPORTANCE)
+SECTION 5: Methodologie et Plan d'Action (METHODOLOGY & IMPLEMENTATION PLAN)
+  5.1 Cadre de Reference
+  5.2 Outils et Moyens Utilises
+  5.3 Etapes de Realisation (mapped to the 8 official stages)
+  5.4 Plan d'Action Detaille (comprehensive table)
+SECTION 6: Resultats (RESULTS)
+SECTION 7: Analyse et Interpretation des Resultats (ANALYSIS & INTERPRETATION)
+SECTION 8: Discussion des Resultats (DISCUSSION)
+SECTION 9: Conclusions et Recommandations (CONCLUSIONS & RECOMMENDATIONS)
+SECTION 10: Bilan (SUMMARY & LESSONS LEARNED)
+SECTION 11: Sources et References (REFERENCES)
+SECTION 12: Annexes (APPENDICES)
+
+The 8 official methodological stages that MUST be mapped in Section 5.3:
+1. Diagnosis & topic selection
+2. Data collection
+3. Drafting the project plan
+4. Interim implementation & developmental evaluation
+5. Drafting results
+6. Reading & analyzing results
+7. Recommendations & limitations
+8. Writing the final report
+
+Section 5.4 MUST include a comprehensive action plan table with columns:
+| Etape | Activites | Groupe cible | Intervenants | Ressources | Calendrier | Resultats attendus |
+
+---
+
+QUALITY STANDARDS:
+
+1. PRACTICAL INNOVATION FOCUS: Every section must reinforce that this is a practical, solution-oriented project — NOT a theoretical research paper. Emphasis on what was BUILT, TESTED, and DELIVERED.
+2. COHERENCE: The thread from problem to objectives to methodology to results to analysis to conclusions must be seamless and logical. No orphaned claims.
+3. EVIDENCE-BASED: All assertions about results must be backed by provided data. Do not fabricate data. If data is insufficient, note it explicitly with [DONNEES A COMPLETER].
+4. PROFESSIONAL TONE: Academic yet accessible. Suitable for oral defense before education professionals.
+5. PAGE DISCIPLINE: Core content (sections 3-10) must fit within approximately 25-28 pages. Be concise but thorough. Use tables and visuals for dense information.
+6. ALIGNMENT WITH 8 OFFICIAL STAGES: Methodology section must explicitly map to the 8 stages defined in the management guide.
+7. TANGIBLE PRODUCT: The report must clearly describe and showcase the deliverable product.
+8. REFLECTIVE DIMENSION: The Bilan section must demonstrate genuine personal and professional growth.
+9. DEFENSE-READY: Structure should support a natural 15-20 minute oral presentation extraction.
+
+---
+
+GENERATION WORKFLOW:
+
+Generate the COMPLETE report in one pass. For any section where the provided data is insufficient, insert [DONNEES A COMPLETER: description of what is needed] placeholders.
+
+---
+
+PROJECT DATA — ALL INFORMATION PROVIDED BELOW:
+
+=== SECTION 1: PROJECT IDENTIFICATION ===
+
+Full Name: DARYF Abdelhakim
+Specialization: Cycle Qualifiant (Secondary Qualifying)
+Project Title: Pseudocode Studio : systeme interactif pour l'apprentissage des algorithmes et du pseudo-code
+Target Group: Les apprenants du tronc commun (la premiere annee de lycee au Maroc)
+Supervisor Name: [NOM DU SUPERVISEUR A COMPLETER]
+Committee Members: [MEMBRES DU JURY A COMPLETER]
+Training Season: 2025-2026
+Language: French
+
+=== SECTION 2: PROJECT DESCRIPTION ===
+
+General Context:
+Le projet "Pseudocode Studio" vise a repondre aux difficultes des etudiants dans l'apprentissage des bases de l'algorithmique, souvent abstraites et peu interactives. Il propose un environnement permettant d'ecrire, executer et experimenter le pseudo-code en temps reel, accompagne d'activites pedagogiques interactives.
+
+Objective Motives:
+- Difficulte des etudiants a maitriser les bases de l'algorithmique (variables, types, structures...)
+- Manque d'outils interactifs adaptes a l'apprentissage du pseudo-code
+- Besoin d'un environnement permettant un retour immediat (feedback en temps reel)
+
+Subjective Motives:
+- Volonte d'ameliorer l'experience d'apprentissage des etudiants
+- Desir de proposer une solution innovante utilisable en classe
+
+Educational Importance:
+Le projet presente une grande importance pedagogique, car il favorise un apprentissage actif et interactif. Il permet aux etudiants de comprendre les concepts abstraits a travers la pratique, d'experimenter en temps reel et de corriger leurs erreurs immediatement, ce qui ameliore leur autonomie, leur motivation et leur comprehension.
+
+Scope & Dimensions:
+Domaine: Technologies de l'education (EdTech), Apprentissage de l'algorithmique et de la programmation
+Dimensions:
+- Dimension pedagogique : amelioration de l'apprentissage
+- Dimension technique : developpement d'un outil interactif (editeur + moteur d'execution)
+- Dimension fonctionnelle : activites, exercices, execution du pseudo-code en temps reel
+
+Project Objectives:
+Objectif general: Concevoir une plateforme educative interactive permettant d'apprendre et de maitriser les bases de l'algorithmique a travers l'ecriture et l'execution du pseudo-code.
+
+Objectifs specifiques:
+- Permettre l'ecriture et l'execution du pseudo-code en temps reel
+- Fournir un feedback immediat pour detecter et corriger les erreurs
+- Proposer des activites interactives pour comprendre les concepts fondamentaux
+- Aider les etudiants a maitriser les types, variables, structures et operations
+- Ameliorer l'engagement et la motivation des apprenants
+
+=== SECTION 3: METHODOLOGICAL PLAN ===
+
+Methodological Stages:
+La realisation du projet repose sur une demarche methodologique progressive basee sur l'observation, la conception et l'evaluation.
+
+Dans un premier temps, une phase d'observation et de diagnostic est menee afin d'identifier les difficultes reelles des etudiants en algorithmique (choix des types, structures, comprehension des instructions, etc.). Cette analyse initiale permet de determiner les besoins prioritaires.
+
+Ensuite, ces resultats sont exploites pour concevoir des activites pedagogiques adaptees, integrees dans la plateforme. L'objectif est de cibler directement les lacunes identifiees a travers des exercices interactifs et progressifs. Parallelement, un environnement simplifie d'ecriture du pseudo-code est propose, avec des structures predefinies pour faciliter l'apprentissage.
+
+Enfin, une phase d'experimentation est realisee, ou les etudiants utilisent la plateforme pendant une ou plusieurs seances. Une evaluation avant/apres, basee sur des questionnaires, permet de mesurer l'impact du projet sur leur comprehension et leurs competences.
+
+Expected Results:
+- Amelioration de la comprehension des bases de l'algorithmique chez les etudiants
+- Maitrise des concepts fondamentaux (types de donnees, variables, constantes, structures)
+- Capacite a ecrire un algorithme simple de maniere autonome
+- Developpement de la capacite a analyser et corriger les erreurs
+- Augmentation de l'engagement et de la motivation des apprenants grace a l'interactivite
+
+Expected Product:
+Le projet vise a produire un logiciel educatif interactif intitule Pseudocode Studio, offrant un environnement ou l'etudiant peut ecrire et executer des algorithmes en pseudo-code avec un retour en temps reel. Ce systeme permet de visualiser l'evolution des variables, le deroulement des instructions et le flux d'execution du programme, facilitant ainsi la comprehension du fonctionnement des algorithmes.
+
+En complement, la plateforme integre un ensemble d'activites interactives permettant aux etudiants de pratiquer les concepts fondamentaux tels que les types de donnees, les affectations, les structures conditionnelles et iteratives, ainsi que les operations de lecture et d'ecriture.
+
+=== SECTION 4: IMPLEMENTATION & RESULTS DATA ===
+
+Tools & Instruments Used:
+- Questionnaire diagnostique (pre-test) distribue aux eleves avant l'experimentation
+- Questionnaire d'evaluation (post-test) distribue apres l'utilisation de la plateforme
+- Grille d'observation pour noter le comportement et l'engagement des eleves pendant les seances
+- La plateforme Pseudocode Studio elle-meme (editeur de pseudo-code + moteur d'execution + activites interactives)
+- Ordinateurs de la salle informatique du lycee
+- [COMPLETER: technologies specifiques utilisees pour le developpement — langages, frameworks, etc.]
+
+Actual Activities Conducted:
+- Seance 1: Administration du questionnaire diagnostique et observation du niveau initial des eleves
+- Seance 2-3: Utilisation de Pseudocode Studio par les eleves — ecriture de pseudo-code, execution, correction d'erreurs, activites interactives sur les variables, types, structures conditionnelles et iteratives
+- Seance 4: Administration du questionnaire post-test et recueil des impressions des eleves
+- [COMPLETER: nombre exact d'eleves participants, dates des seances, nom du lycee]
+
+Raw Results / Data:
+- [DONNEES A COMPLETER: resultats du pre-test — scores moyens, distribution]
+- [DONNEES A COMPLETER: resultats du post-test — scores moyens, distribution]
+- [DONNEES A COMPLETER: comparaison avant/apres par concept (variables, types, structures conditionnelles, boucles)]
+- [DONNEES A COMPLETER: donnees de la grille d'observation — taux de participation, engagement observe]
+- [DONNEES A COMPLETER: retours qualitatifs des eleves — extraits de reponses]
+- [DONNEES A COMPLETER: captures d'ecran de la plateforme Pseudocode Studio]
+
+Challenges & Obstacles:
+- [DONNEES A COMPLETER: difficultes techniques rencontrees pendant le developpement]
+- [DONNEES A COMPLETER: problemes logistiques — disponibilite de la salle, nombre de postes]
+- [DONNEES A COMPLETER: resistance ou difficultes des eleves face a l'outil]
+- [DONNEES A COMPLETER: contraintes de temps]
+
+Personal & Professional Lessons Learned:
+- [DONNEES A COMPLETER: reflexions personnelles sur la gestion de projet]
+- [DONNEES A COMPLETER: competences techniques et pedagogiques developpees]
+- [DONNEES A COMPLETER: ce que le stagiaire ferait differemment]
+
+Sources & References:
+- Ministere de l'Education Nationale, Programmes et Orientations Pedagogiques pour l'enseignement de l'informatique au lycee
+- Les orientations pedagogiques pour l'enseignement de l'informatique au tronc commun
+- [COMPLETER: ouvrages sur la didactique de l'algorithmique]
+- [COMPLETER: articles sur l'apprentissage interactif et le feedback immediat]
+- [COMPLETER: references sur les environnements d'apprentissage de la programmation]
+- [COMPLETER: sites web et documentation technique utilisee]
+
+Appendices Content:
+- Questionnaire diagnostique (pre-test) — formulaire vierge
+- Questionnaire d'evaluation (post-test) — formulaire vierge
+- Grille d'observation utilisee pendant les seances
+- Captures d'ecran de l'interface de Pseudocode Studio (editeur, execution, activites)
+- Echantillons de reponses d'eleves
+- [COMPLETER: tout autre document pertinent]
+
+---
+
+NOW GENERATE THE COMPLETE REPORT FOLLOWING ALL SPECIFICATIONS ABOVE.
+
+Start with the Cover Page and proceed through all 12 sections in order. For any missing data, insert clearly marked [DONNEES A COMPLETER: ...] placeholders. Make sure the total core content (Sections 3-10) stays within 25-28 pages. Use tables and visuals descriptions where appropriate. The report must be defense-ready and demonstrate practical innovation.
